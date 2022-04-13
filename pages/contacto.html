@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Link CSS-->
+    <link rel="stylesheet" href="../css/main.css">
+<!--Tipografía-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="../index.html" >
+                    <img src="../img/logo.jpg" alt="Logo">
+                </a></li>
+                <li><a href="cursos.html">
+                    Cursos
+                </a></li>
+                <li><a href="videos.html">
+                    Videos
+                </a></li>
+                <li><a href="sobrenosotros.html">
+                    Sobre Nosotros
+                </a></li>
+                <li><a href="contacto.html">
+                    Contacto
+                </a></li>
+            </ul>
+        </nav>
+
+        <h1>¿Tienes dudas? </h1>
+    </header>   
+
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>
+                    Déjanos tu información para contactarte
+                </legend> 
+
+                <div>
+                    <label for="Nombre">Escribe tu nombre</label>
+                    <input type="text" name="Nombre" placeholder="EJ. Pepe Pérez">
+                </div>
+
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="Ej. PPerez@hotmail.com">
+                </div>
+
+                <div>
+                    <label for="País">Nacionalidad</label>
+                    <select name="Nacionalidad" id="">
+                        <option value="Argentina">Argentina</option>
+                        <option value="Argelia">Argelia</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Dinamarca">Dinamarca</option>
+                        <option value="Escocia">Escocia</option>
+                        <option value="Perú">Perú</option>
+                    </select>
+                </div>
+
+                
+                    <label class="edadB"for="Edad">Edad:</label> 
+                <div class="edad">
+                    <input type="radio" name="Edad" value="niño"> 3-9 años                   
+                    <input type="radio" name="Edad" value="preadolescente"> 10-12 años 
+                    <input type="radio" name="Edad" value="adolescente"> 13-19 años 
+                    <input type="radio" name="Edad" value="jovenadulto"> 20-25 años 
+                    <input type="radio" name="Edad" value="Adulto"> 25-50 años 
+                    <input type="radio" name="Edad" value="adultomayor"> 50-100 años 
+                </div>
+
+                <div class="fBoton">
+                    <input type="submit" value="¡Contáctame Ya!">
+                    <input type="reset" value="Empezar de nuevo">
+                </div>
+                
+            </fieldset>
+        </form>
+    </main>
+    
+    <footer>
+        @Todos los derechos reservados
+    </footer>
+</body>
